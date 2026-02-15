@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Dark Mode*/
+@variant dark (&:where(.dark, .dark *));
+
+/* Scrollbar Gizleme */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
